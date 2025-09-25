@@ -1,0 +1,36 @@
+# Blessed training configurations for tinylm experiments.
+
+[rnn]
+name = "rnn_full"
+steps = 20000
+eval_interval = 200
+embed_dim = 256
+hidden_size = 512
+seq_len = 256
+batch_size = 128
+learning_rate = 0.01
+lr_decay_steps = 2500
+lr_decay_gamma = 0.5
+grad_clip = 1.0
+device = "mps"
+seed = 42
+checkpoint = "best"
+
+[transformer]
+name = "tfm_full"
+steps = 16000
+eval_interval = 400
+seq_len = 256
+batch_size = 64
+embed_dim = 256
+num_layers = 4
+num_heads = 8
+ff_dim = 1024
+dropout = 0.1
+learning_rate = 0.0003
+lr_decay_steps = 4000
+lr_decay_gamma = 0.5
+grad_clip = 1.0
+device = "mps"
+seed = 42
+checkpoint = "best"
