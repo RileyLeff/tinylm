@@ -1,0 +1,22 @@
+{
+  "model_id": "transformer",
+  "model_config": {
+    "vocab_size": 1013,
+    "seq_len": 256,
+    "embed_dim": 256,
+    "num_layers": 4,
+    "num_heads": 8,
+    "ff_dim": 1024,
+    "dropout": 0.1,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "device": "mps",
+    "seed": 42,
+    "batch_size": 64,
+    "lr_decay_steps": 4000,
+    "lr_decay_gamma": 0.5
+  }
+}

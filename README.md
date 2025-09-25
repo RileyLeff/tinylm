@@ -2,6 +2,12 @@
 
 Tiny language-model demos for illustrating RNNs vs. transformers.
 
+## Dataset & model sizes
+
+- **Training corpus**: character-level WikiText-2 (`wikitext-2-raw-v1`), ~10.9M training characters (10,916,756 tokens) and ~1.14M validation characters (1,144,610 tokens).
+- **RNN config (`rnn_full`)**: 1,173,237 trainable parameters (256-d embeddings, 512 hidden units, 1 layer).
+- **Transformer config (`tfm_full`)**: 3,743,744 trainable parameters (256-d model width, 4 layers, 8 heads, 1024 ff dim).
+
 ## Quick start
 
 ```bash

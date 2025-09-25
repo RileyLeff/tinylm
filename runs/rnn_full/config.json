@@ -1,0 +1,21 @@
+{
+  "model_id": "rnn",
+  "model_config": {
+    "vocab_size": 1013,
+    "embed_dim": 256,
+    "hidden_size": 512,
+    "num_layers": 1,
+    "seq_len": 256,
+    "batch_size": 128,
+    "learning_rate": 0.01,
+    "grad_clip": 1.0,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "device": "mps",
+    "seed": 42,
+    "lr_decay_steps": 2500,
+    "lr_decay_gamma": 0.5
+  }
+}
