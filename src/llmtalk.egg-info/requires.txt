@@ -1,0 +1,9 @@
+datasets>=4.1.1
+matplotlib>=3.10.6
+numpy>=2.3.3
+seaborn>=0.13.2
+torch>=2.5
+
+[plot]
+matplotlib>=3.9
+seaborn>=0.13

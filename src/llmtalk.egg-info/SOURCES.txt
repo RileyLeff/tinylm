@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/llmtalk.egg-info/PKG-INFO
+src/llmtalk.egg-info/SOURCES.txt
+src/llmtalk.egg-info/dependency_links.txt
+src/llmtalk.egg-info/entry_points.txt
+src/llmtalk.egg-info/requires.txt
+src/llmtalk.egg-info/top_level.txt
+src/tinylm/__init__.py
+src/tinylm/__main__.py
+src/tinylm/cli.py
+src/tinylm/data.py
+src/tinylm/models/__init__.py
+src/tinylm/models/rnn.py
+src/tinylm/models/transformer.py
